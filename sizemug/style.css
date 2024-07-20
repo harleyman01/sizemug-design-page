@@ -1,0 +1,548 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgreen;
+    height: 50px;
+    width: 100%;
+}
+.sizeMugHeader{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.headerTitle{
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-size: 20px;
+}
+.searchHeader{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    position: relative;
+    left: 25px;
+}
+.search{
+    height: 40px;
+    width: 200%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #e4eff3;
+    padding: 20px 30px;
+    font-weight: 600;
+}
+.headerItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+.headerTitleImg{
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.headerItem i{
+    margin-right: 20px;
+    color: #000000d8;
+    cursor: pointer;
+}
+.headerItemBellDot{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    bottom: 2px;
+    right: 27px;
+    border-radius: 50%;
+}
+
+.sideMessage{
+    width: 20%;
+    height: 130vh;
+    margin: 20px 10px 20px 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.firstNote{
+    border-bottom: 1px solid gray;
+    width: 115%;
+    position: relative;
+    left: -20px;
+    padding: 15px 0px 50px 0px;
+}
+.firstNote li{
+    list-style: none;
+    line-height: 2.0;
+}
+.firstNote a{
+    text-decoration: none;
+    color: #000000cb;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.firstNote i{
+    padding-left: 20px;
+    font-weight: 200;
+    color: #000000cb;
+}
+.new{
+    float: right;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: wheat;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.secondNote img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.secondNote li{
+    list-style: none;
+}
+ .secondNote a{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #000000cb;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    font-weight: 600;
+} 
+.check{
+    float: right;
+    top: 10px;
+    right: 30px;
+    position: relative;
+    font-size: 30px;
+    color: purple;
+    font-weight: 600;
+}
+.follow{
+    letter-spacing: -1px;
+    font-weight: 600;
+    float: right;
+    top: 20px; 
+    position: relative;
+    margin-top: -5px;
+}
+.follow a{
+    color: purple;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.seeMore{
+    margin: 10px 0px 0px 60px;
+}
+.suggestion{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.secondNote{
+    border-bottom: 1px solid gray;
+    width: 115%;
+    padding: 0px 0px;
+    margin-left: -20px;
+}
+
+.thirdNote li{
+    list-style: none;
+}
+
+.icons{
+    padding-left: 20px;
+}
+.thirdNote a{
+    padding-left: 20px;
+    color: #000000cb;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.thirdNote{
+    border-bottom: 1px solid gray;
+    width: 115%;
+    position: relative;
+    left: -20px;
+    padding: 15px 0px 50px 0px;
+}
+
+.headerNot{ 
+    margin-top: 20px;
+}
+.headerNot a{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-right: 1px;
+    color: grey;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px ;
+    color: gray;
+}
+.inneroverAllFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.partoneContainer{
+    display: flex;
+    width: 120%;
+    margin-top: 30px;
+}
+.coinAndwallent{
+    background-image: url('img/coin.jpg');
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 280px;
+    padding: 30px  0px 10px 10px;
+    background-position: left;
+    background-size: calc(100px 210px);
+    border-radius: 5%;
+    margin: 10px;
+}
+.data{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+}
+.coinNote{
+    color: orange;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.wallentandCoin{
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.leftArrow{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.collection{
+    width: 50%;
+    text-align: center;
+}
+.homeCollection a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.homeCollection span{
+    font-size: 18px;
+}
+.collection h1{
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+.collection input{
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 1px 2px grey;
+    padding: 10px;
+}
+.collaborationSearch{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.flexSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.LSS{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.location{
+    width: 23%;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.location select{
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    outline: none;
+    font-weight: 600;
+}
+.location i{
+    color: blue;
+}
+.invite{
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.profile{
+    width: 30%;
+    background: linear-gradient(to  right, #add8e6,  lightgreen, #ff66cc, lightgreen);
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1px 1px whitesmoke;
+    margin-right: 20px;
+}
+.profile .ad{
+    color: white;
+    padding: 10px;
+}
+.innerprofile img{
+    border-radius: 50%;
+    margin-left: 130px;
+    width: 120px;
+    height: 120px;
+    border: 5px solid white;
+    position: relative;
+    top: -60px;
+    z-index: 1;
+}
+.innerprofile{
+    background-color: white;
+    margin-top: 52px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.profileName{
+    text-align: center;
+    position: relative;
+    top: -50px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.innerProfileName{
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+.profileFollow{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.profileMessage{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.partThreeItemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid lightgreen;
+    border-radius: 20px;
+    margin: 0px 20px 20px 20px;
+    padding: 20px 10px;
+}
+.partThreeItem{
+    display: flex;
+}
+.partThreeItem img{
+    border-radius: 50%;
+    left: -30px;
+    position: relative;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    left: -40px;
+    top: 50px;
+}
+.detainName{
+    font-weight: 800;
+    line-height: 1.2;
+}
+.detains{
+    position: relative;
+    left: -20px;
+}
+.online, .note{
+    font-weight: 600;
+    color: #ad8232;
+    font-size: 15px;
+}
+
+.marketingpage li{
+    list-style: none;
+    font-weight: 800;
+    line-height: 1.6;
+}
+.marketingpage i{
+    margin-right: 20px;
+    color: gray;
+}
+.jenneyCollectionNote{
+    font-weight: 400;
+    color: #ad8232;
+}
+.jennyCollection img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.innerImg{
+    margin-left: -22px;
+    border: 3px solid white;
+}
+.plusFive{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #ff66cc;
+    border-radius: 50%;
+    justify-content: center;
+    position: relative;
+    left: 260px;
+    top: -60px;
+    cursor: pointer;
+}
+.jennyCollection{
+    padding-top: 20px;
+}
+.plusonly{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: gray;
+    cursor: pointer;
+}
+.addfov i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.partThreeNav li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+.partThreeNav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partThreeNav{
+    border-bottom: 1px solid lightgreen;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+}
+.partThreeNav a{
+    color: #975e68;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+.partThreeContainer{
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    width: 120%;
+    margin-top: 10px;  
+    margin-bottom: 10px;  
+    padding-top: 20px;
+}
+.blackcolorLink a{
+    color: black;
+}
+.blackcolorLink a::before{
+   content: '';
+   width: 58px;
+   height: 2px;
+   background-color: black;
+   display: block;
+   position: absolute;
+   bottom: -25px;
+   z-index: 1;
+   margin-left: -20px;
+}
